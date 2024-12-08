@@ -25,7 +25,7 @@ contract TicketSale {
     // Function to purchase a ticket
     function purchaseTicket() public payable {
         // Ensure that the payment is sufficient for a ticket (e.g., 1 Ether)
-        require(msg.value == 1 ether, "Ticket price is 1 ether.");
+        require(msg.value == 0.0000001 ether, "Ticket price is 0.000001 ether.");
 
         // Increment the ticket counter to get a new ticket ID
         ticketCounter++;

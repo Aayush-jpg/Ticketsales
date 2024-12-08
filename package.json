@@ -1,0 +1,24 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "This project is a decentralized ticket sale and management application built on Ethereum. It leverages smart contracts to securely handle ticket transactions, swaps, and returns while ensuring transparency and immutability. The project includes a React.js-based frontend that interacts with the blockchain through web3.js.",
+  "main": "deploy.js",
+  "type": "module",
+  "scripts": {
+    "start": "node deploy.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@types/node": "^22.10.1",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.22.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
